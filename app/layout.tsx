@@ -14,7 +14,7 @@ const roboto = Roboto({
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <html lang="ko">
+    <html lang="en">
       <body className={`${roboto.className}`}>
         <Header />
 
