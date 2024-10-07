@@ -42,8 +42,6 @@ export default css`
       height: 100%;
       background: ${Theme.secondary};
       z-index: 20;
-      transition: transform 0.5s;
-      transition-delay: 0.2s;
     }
 
     &::-webkit-scrollbar {
@@ -61,6 +59,7 @@ export default css`
 
     &.hide-overflow {
       &:before {
+        transition: transform 0.32s;
         transform: translateY(-100%);
       }
     }

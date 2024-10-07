@@ -1,8 +1,9 @@
-import Link from "next/link";
 import { useState } from "react";
 
 import Hamburger from "./components/Hamburger";
 import * as S from "./styled";
+
+import Link from "@/components/ViewTransitionLink";
 
 export default function Navigation() {
   // to update values for all components, keep the state here

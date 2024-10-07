@@ -31,11 +31,7 @@ const slides = [
 ];
 
 const App = () => {
-  return (
-    <main className="page-content">
-      <Hero heroType="fullPageSlider" data={slides} />
-    </main>
-  );
+  return <Hero heroType="fullPageSlider" data={slides} />;
 };
 
 export default App;
