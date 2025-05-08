@@ -1,5 +1,3 @@
-import "@/styles/global.css";
-
 import { Roboto } from "next/font/google";
 
 import Footer from "@/components/Footer";
@@ -15,7 +13,7 @@ const roboto = Roboto({
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
-      <body className={`${roboto.className}`}>
+      <body className={roboto.className}>
         <Header />
 
         <main className="page-content">{children}</main>
