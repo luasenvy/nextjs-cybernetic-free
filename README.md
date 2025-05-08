@@ -1,12 +1,12 @@
 # nextjs-cybernetic-free
 
-[Cybernetic Free Theme](https://github.com/codexcodethemes/cybernetic-free) for [Next.js](https://nextjs.org/)<sub>(14+ App Router)</sub>
+[Cybernetic Free Theme](https://github.com/codexcodethemes/cybernetic-free) for [Next.js](https://nextjs.org/)<sub>(15+ App Router)</sub>
 
 ## Tested Environment
 
 - debian - bookworm
-- nodejs - v20.17.0
-- npm - 10.8.3
+- nodejs - v22.14.0
+- npm - 11.3.0
 
 ## 🧞 Commands
 
