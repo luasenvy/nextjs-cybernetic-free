@@ -1,9 +1,7 @@
 import type { StaticImageData } from "next/image";
-
-import * as S from "./styled";
-
 import Button from "@/components/Button";
 import FadeIn from "@/components/Utils/animations/FadeIn";
+import * as S from "./styled";
 
 export type TextImageProps = {
   title?: string;

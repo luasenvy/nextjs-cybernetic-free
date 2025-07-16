@@ -1,9 +1,7 @@
-import * as S from "./styled";
-
 import Image from "@/components/Images";
 import Link from "@/components/ViewTransitionLink";
-
 import LogoImage from "@/public/images/logo.webp";
+import * as S from "./styled";
 
 /**
  * Logo is a text but if there is need to use img, add two img from <Image component

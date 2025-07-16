@@ -1,11 +1,9 @@
 import { Autoplay, Pagination, Parallax } from "swiper/modules";
-
-import * as S from "./styled";
-
 import Button from "@/components/Button";
 import Icon from "@/components/Icons";
 import SwiperSlider from "@/components/SwiperSlider";
 import FadeIn from "@/components/Utils/animations/FadeIn";
+import * as S from "./styled";
 
 export type FullPageSliderProps = {
   // content treated as HTML output

@@ -1,6 +1,5 @@
-import * as S from "./styled";
-
 import Icon from "@/components/Icons";
+import * as S from "./styled";
 
 export default function Socials({ ...rest }: React.HTMLAttributes<HTMLDivElement>) {
   return (

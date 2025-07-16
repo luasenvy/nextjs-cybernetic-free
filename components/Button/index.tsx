@@ -1,9 +1,7 @@
+import Icon from "@/components/Icons";
 import * as S from "./styled";
 
-import Icon from "@/components/Icons";
-
 type ButtonProps = {
-  children: any;
   link?: string;
   variant?: "primary" | "secondary";
   target?: "_blank" | "_self" | "_parent";
@@ -11,7 +9,7 @@ type ButtonProps = {
   asButton?: boolean;
   type?: "button" | "submit" | "reset";
   showIcon?: boolean;
-};
+} & React.PropsWithChildren;
 
 /**
  * Button component

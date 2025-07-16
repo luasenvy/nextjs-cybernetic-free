@@ -1,10 +1,8 @@
 import { css } from "@emotion/react";
 import styled from "@emotion/styled";
-
-import type { TextBoxProps } from ".";
-
 import { Theme } from "@/components/Styles/colors";
 import MediaQuery from "@/components/Styles/mediaQuery";
+import type { TextBoxProps } from ".";
 
 export const TextBotStyed = styled.div<{
   $variant: TextBoxProps["variant"];

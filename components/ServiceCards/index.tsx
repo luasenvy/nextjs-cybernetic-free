@@ -1,10 +1,9 @@
 "use client";
 
-import * as S from "./styled";
-
 import Container from "@/components/Container";
 import TextBox from "@/components/TextBox";
 import FadeIn from "@/components/Utils/animations/FadeIn";
+import * as S from "./styled";
 
 type ServiceCards = {
   title?: string;

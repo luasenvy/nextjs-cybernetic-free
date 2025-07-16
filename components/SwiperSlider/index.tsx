@@ -34,7 +34,7 @@ export default function SwiperSlider({ children, options, modules, ...rest }: Sw
           {child}
         </SwiperSlide>
       )),
-    [children]
+    [children],
   );
 
   return (

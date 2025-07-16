@@ -8,7 +8,7 @@ export type ViewTransitionLinkProps = AnchorHTMLAttributes<HTMLAnchorElement> & 
 
 export default forwardRef(function ViewTransitionLink(
   { onClick: handleClick, ...props }: ViewTransitionLinkProps,
-  ref: React.Ref<HTMLAnchorElement>
+  ref: React.Ref<HTMLAnchorElement>,
 ) {
   const router = useRouter();
 

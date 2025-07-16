@@ -1,9 +1,8 @@
 "use client";
 
-import * as S from "./styled";
-
 import TextBox from "@/components/TextBox";
 import FadeIn from "@/components/Utils/animations/FadeIn";
+import * as S from "./styled";
 
 export default function Contact() {
   return (

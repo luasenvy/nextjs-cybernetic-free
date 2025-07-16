@@ -1,9 +1,7 @@
 import styled from "@emotion/styled";
-
-import type { ParallaxImageProps } from "./ParallaxImage";
-
 import { Theme } from "@/components/Styles/colors";
 import MediaQuery from "@/components/Styles/mediaQuery";
+import type { ParallaxImageProps } from "./ParallaxImage";
 
 export const ParallaxImageStyled = styled.div<{
   $bgImage: ParallaxImageProps["image"];

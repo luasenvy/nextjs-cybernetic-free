@@ -28,7 +28,7 @@ export default function FadeIn({ children, delay }: FadeInProps) {
               () => {
                 entry.target.classList.add("visible");
               },
-              convertToSeconds(delay ? delay : 0)
+              convertToSeconds(delay ? delay : 0),
             );
           }
         });
@@ -37,7 +37,7 @@ export default function FadeIn({ children, delay }: FadeInProps) {
         root: null,
         rootMargin: "-50px",
         threshold: 0.1,
-      }
+      },
     );
 
     if (elementRef.current) {

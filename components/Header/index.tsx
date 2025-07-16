@@ -2,12 +2,10 @@
 
 import { Global } from "@emotion/react";
 import { useEffect } from "react";
-
-import * as S from "./styled";
-
 import Logo from "@/components/Logo";
 import Navigation from "@/components/Navigation";
 import NormalizeCSS from "@/components/Styles/normalize";
+import * as S from "./styled";
 
 export default function Header() {
   // on scroll header needs to get class of "scrolled" and change its background color

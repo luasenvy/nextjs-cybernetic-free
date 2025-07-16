@@ -1,10 +1,9 @@
 "use client";
 
-import * as S from "./styled";
-
 import Container from "@/components/Container";
 import Logo from "@/components/Logo";
 import Socials from "@/components/Socials";
+import * as S from "./styled";
 
 export default function Footer() {
   return (
